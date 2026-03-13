@@ -1,0 +1,80 @@
+export const companyData = {
+  company: {
+    name: "Trivexa",
+    fullName: "Trivexa Intelligence Solutions India LLP",
+    tagline: "Integrated Security, Surveillance & Smart Infrastructure Solutions",
+    quote: "Security is not just about protection — it is about enabling confidence, continuity, and control.",
+    quoteAuthor: "Managing Partner, Trivexa Intelligence Solutions India LLP",
+  },
+  leadership: {
+  name: "Pratik Patil",
+  title: "Director & Founder",
+  cert: "CCNA Certified",
+  bio: "CCNA-certified networking professional with experience in industrial CCTV surveillance, fiber optic infrastructure, LAN/WAN architecture, switch configuration, and AI-enabled security systems.",
+  founded: "Founder of New Vision Enterprise (2016)",
+  clients: [
+    "Camlin Fine Sciences",
+    "Viraj Profiles Pvt Ltd",
+    "Aarti Drugs Ltd",
+    "Palghar Superintendent of Police",
+    "Reliance Jio",
+  ],
+},
+  capabilities: [
+    {
+      icon: "◈",
+      title: "Advanced Surveillance & AI",
+      items: [
+        "IP-based CCTV & Enterprise Video Management",
+        "AI-Driven Video Analytics",
+        "Facial Recognition & ANPR Systems",
+        "Integrated Command & Control Centers",
+      ],
+    },
+    {
+      icon: "◉",
+      title: "Access & Perimeter Security",
+      items: [
+        "Enterprise Access Control & Biometric Systems",
+        "Visitor Management Solutions",
+        "Boom Barriers, Turnstiles & Gate Automation",
+        "Perimeter Intrusion Detection Systems",
+      ],
+    },
+    {
+      icon: "◧",
+      title: "Safety & Infrastructure",
+      items: [
+        "Fire Alarm & Life Safety Systems",
+        "Intrusion & Alarm Monitoring Solutions",
+        "Structured Cabling & Network Infrastructure",
+        "Server, Storage & Data Integration Support",
+      ],
+    },
+  ],
+  industries: [
+    { label: "Manufacturing & Industrial", icon: "⚙" },
+    { label: "Oil & Gas", icon: "◈" },
+    { label: "Warehousing & Logistics", icon: "▣" },
+    { label: "Commercial Real Estate", icon: "▦" },
+    { label: "Retail Enterprises", icon: "◉" },
+    { label: "BFSI", icon: "◆" },
+    { label: "Government & Smart Cities", icon: "▲" },
+  ],
+  differentiators: [
+    { title: "Technology-Led Approach", desc: "Strategic use of cutting-edge security tech tailored to your environment." },
+    { title: "End-to-End Lifecycle", desc: "Full project management from consultation to ongoing maintenance." },
+    { title: "Scalable Enterprise Solutions", desc: "Customized architectures that grow with your organization." },
+    { title: "Technical Expertise", desc: "Deep domain knowledge across surveillance, networking & AI systems." },
+    { title: "Compliance-Oriented", desc: "Deployments built to meet regulatory and security standards." },
+    { title: "After-Sales & AMC Support", desc: "Dedicated support framework ensuring long-term reliability." },
+  ],
+  methodology: [
+    { step: "01", title: "Consultation & Risk Assessment" },
+    { step: "02", title: "Solution Architecture" },
+    { step: "03", title: "Detailed Engineering" },
+    { step: "04", title: "Deployment & Integration" },
+    { step: "05", title: "Testing & Commissioning" },
+    { step: "06", title: "Lifecycle Support & Maintenance" },
+  ],
+};
